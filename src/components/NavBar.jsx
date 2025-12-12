@@ -43,6 +43,7 @@ function NavBar() {
       <div style={{ display: "flex", alignItems: "center" }}>
         <HoverLink to="/" style={linkStyle} hover={linkHover}>Inicio</HoverLink>
         <HoverLink to="/menu" style={linkStyle} hover={linkHover}>Menú</HoverLink>
+        <HoverLink to="/reservations"style={linkStyle}>Reservas</HoverLink>
         <HoverLink to="/about" style={linkStyle} hover={linkHover}>Sobre Nosotros</HoverLink>
         <HoverLink to="/contact" style={linkStyle} hover={linkHover}>Contacto</HoverLink>
       </div>

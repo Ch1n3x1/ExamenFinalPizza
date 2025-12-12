@@ -27,6 +27,7 @@ export default function Admin() {
           <Link to="/admin/dashboard" style={styles.link}>📊 Dashboard</Link>
           <Link to="/admin/pizzas" style={styles.link}>🍕 Gestionar Pizzas</Link>
           <Link to="/admin/orders" style={styles.link}>📦 Pedidos</Link>
+          <p><Link to="/admin/reservations"style={styles.link}>🪑 Reservas</Link></p>
           <Link to="/admin/coupons" style={styles.link}>🏷️ Cupones</Link>
           <Link to="/admin/drivers" style={styles.link}>🚴 Repartidores</Link>
           <Link to="/" style={styles.link}>🏠 Ir al Inicio</Link>

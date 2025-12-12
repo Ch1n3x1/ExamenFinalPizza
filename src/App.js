@@ -15,6 +15,10 @@ import Footer from "./components/Footer";
 import AdminCoupons from "./pages/AdminCoupons";
 import AdminUsers from "./pages/AdminUsers";
 import AdminDrivers from "./pages/AdminDrivers";
+import Reservations from "./pages/Reservations";
+import AdminReservations from "./pages/AdminReservations";
+import TableMap from "./components/TableMap";
+
 
 function App() {
   return (
@@ -31,13 +35,18 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/register" element={<Register />} />
         <Route path="/admin/users" element={<AdminUsers />} />
+        <Route path="/reservations" element={<Reservations />} />
+
 
         {/* Admin */}
+        <Route path="/admin/customers" element={<AdminUsers />} />
         <Route path="/admin/orders" element={<AdminOrders />} />
         <Route path="/admin/pizzas" element={<AdminPizzas />} />
         <Route path="/admin/dashboard" element={<AdminDashboard />} />
         <Route path="/admin/coupons" element={<AdminCoupons />} />
         <Route path="/admin/drivers" element={<AdminDrivers />} />
+        <Route path="/admin/reservations" element={<AdminReservations />} />
+
 
 
         <Route path="/contact" element={<Contact />} />

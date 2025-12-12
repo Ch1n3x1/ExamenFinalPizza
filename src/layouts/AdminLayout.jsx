@@ -12,7 +12,7 @@ export default function AdminLayout({ children }) {
         <Link to="/admin" style={sideLink}>🏠 Inicio Admin</Link>
         <Link to="/admin/orders" style={sideLink}>📦 Pedidos</Link>
         <Link to="/admin/pizzas" style={sideLink}>🍕 Pizzas</Link>
-        <Link to="/admin/customers" style={sideLink}>👥 Vista de Clientes</Link>
+        <Link to="/admin/customers" style={sideLink}>👥 Vista de Clientes y Usuarios</Link>
       </aside>
 
       {/* CONTENIDO PRINCIPAL */}
